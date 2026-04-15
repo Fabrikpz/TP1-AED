@@ -26,7 +26,7 @@ else:
 monto_final += (monto_final * porcentaje / 100)
 
 nombres_capitulos = (
-    "Ciertas enfermedades infecciosas y parasitarias",
+    "Ciertas enfermedades infecciosas y parasitarias", 
     "Tumores [neoplasias]",
     "Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan el mecanismo de la inmunidad",
     "Enfermedades endocrinas, nutricionales y metabólicas",
