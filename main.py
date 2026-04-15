@@ -16,13 +16,6 @@ elif "M" <= letra <= "Z":
     recargo_letra = 40000
     monto_final += recargo_letra
 
-if codigo[3] == ".":
-    porcentaje = int(codigo[4:])
-elif codigo [2] == ".":
-    porcentaje = int(codigo[3:])
-else: 
-    porcentaje = int(codigo[5:])
-
 # H10.20   H10.2
 if len(codigo) > 5:
     texto_porcentaje = codigo[4] + codigo[5]
