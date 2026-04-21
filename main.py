@@ -16,7 +16,6 @@ elif "M" <= letra <= "Z":
     recargo_letra = 40000
     monto_final += recargo_letra
 
-# H10.20   H10.2
 if len(codigo) > 5:
     texto_porcentaje = codigo[4] + codigo[5]
     porcentaje = int(texto_porcentaje)
@@ -106,25 +105,3 @@ print("Beneficiario:", beneficiario)
 print("Codigo:", codigo)
 print("Capitulo:", capitulo)
 print("Monto a pagar:", monto_final) 
-# (1) Ciertas enfermedades infecciosas y parasitarias (C00–D48)
-# (2) Tumores [neoplasias] (A00–B99)
-# (3)Enfermedades de la sangre y de los órganos hematopoyéticos, y ciertos trastornos que afectan el mecanismo de la inmunidad (D50–D89)
-# (4) Enfermedades endocrinas, nutricionales y metabólicas (E00–E90)
-# (5) Trastornos mentales y del comportamiento (F00–F99)
-# (6) Enfermedades del sistema nervioso (G00–G99)
-# (7) Enfermedades del ojo y sus anexos (H00–H59)
-# (8) Enfermedades del oído y de la apófisis mastoides (H60–H95)
-# (9) Enfermedades del sistema circulatorio (I00–I99)
-# (10) Enfermedades del sistema respiratorio (J00–J99)
-# (11) Enfermedades del sistema digestivo (K00–K93)
-# (12) Enfermedades de la piel y del tejido subcutáneo (L00-L99)
-# (13) Enfermedades del sistema osteomuscular y del tejido conjuntivo (M00-M99)
-# (14) Enfermedades del sistema genitourinario (N00-N99)
-# (15) Embarazo, parto y puerperio (O00–O99)
-# (16) Ciertas afecciones originadas en el período perinatal (P00–P96)
-# (17) Malformaciones congénitas, deformidades y anomalías cromosómicas (Q00–Q99)
-# (18) Síntomas, signos y hallazgos anormales clínicos y de laboratorio, no clasificados en otra parte (R00–R99)
-# (19) Traumatismos, envenenamientos y algunas otras consecuencias de causas externas (S00–T98)
-# (20) Causas externas de morbilidad y de mortalidad (V01–Y98)
-# (21) Factores que influyen en el estado de salud y contacto con los servicios de salud (Z00–Z99)
-# (22) Códigos para propósitos especiales (U00–U99)
