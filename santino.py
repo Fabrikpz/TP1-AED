@@ -31,7 +31,7 @@ elif letra == "D":
     if bloque <= 48:
         capitulo = "Tumores [neoplasias]"
     else:
-        capitulo = "Enfermedades de la sangre y de los órganos hematopoyéticos y ciertos trastornos que afectan el mecanismo inmunitario"
+        capitulo = "Enfermedades de la sangre y de los órganos hematopoyéticos y ciertos trastornos que afectan el mecanismo de la inmunidad"
 elif letra == "E":
     capitulo = "Enfermedades endocrinas, nutricionales y metabólicas"
 elif letra == "F":
